@@ -19,7 +19,6 @@ export const cartData = (data = [], action) => {
             data = [] // Empty the array.
             return [...data]
         default:
-            console.log("No action called");
             return data // If no action is matched, we just return the initial data.
     }
 }
