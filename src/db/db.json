@@ -1,0 +1,95 @@
+{
+    "products": [
+        {
+          "id": 1,
+          "name": "Samsung M40",
+          "color": "black",
+          "price": 1500,
+          "category": "mobile",
+          "brand": "Samsung",
+          "photo": "https://www.notebookcheck.org/uploads/tx_nbc2/SamsungGalaxyM40.JPG"
+        },
+        {
+          "id": 2,
+          "name": "iPhone 11",
+          "color": "white",
+          "price": 1200,
+          "category": "mobile",
+          "brand": "Apple",
+          "photo": "https://cf5.certideal.com/21522-thickbox_default/iphone-11-64-gb-negro.jpg"
+        },
+        {
+          "id": 3,
+          "name": "Google Pixel 4",
+          "color": "orange",
+          "price": 1100,
+          "category": "mobile",
+          "brand": "Google",
+          "photo": "https://media.cnn.com/api/v1/images/stellar/prod/191020213030-2-underscored-google-pixel-4-review.jpg?q=w_2289,h_1717,x_0,y_0,c_fill"
+        },
+        {
+          "id": 4,
+          "name": "Sony Bravia 4K TV",
+          "color": "silver",
+          "price": 2500,
+          "category": "electronics",
+          "brand": "Sony",
+          "photo": "https://www.sony.es/image/88de0249f4df8101f60bccc4aaa57779?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+        },
+        {
+          "id": 5,
+          "name": "Dell XPS 13 Laptop",
+          "color": "rose gold",
+          "price": 1800,
+          "category": "laptop",
+          "brand": "Dell",
+          "photo": "https://www.notebookcheck.org/uploads/tx_nbc2/xps13_9370_4_3.jpg"
+        },
+        {
+          "id": 6,
+          "name": "Canon EOS R5 Camera",
+          "color": "black",
+          "price": 3500,
+          "category": "camera",
+          "brand": "Canon",
+          "photo": "https://fotografiarte.es/pro/1928-large_default/camara-canon-eos-r5-comprar-canon-r5.jpg"
+        },
+        {
+          "id": 7,
+          "name": "LG UltraWide Monitor",
+          "color": "silver",
+          "price": 1200,
+          "category": "monitor",
+          "brand": "LG",
+          "photo": "https://www.lg.com/es/images/monitores/md07545001/gallery/D-1.jpg"
+        },
+        {
+          "id": 8,
+          "name": "Bose QuietComfort 35 II Headphones",
+          "color": "black",
+          "price": 300,
+          "category": "audio",
+          "brand": "Bose",
+          "photo": "https://www.worten.es/i/fefc812e1f42d96aa575abe849785f1472300ff7.jpg"
+        },
+        {
+          "id": 9,
+          "name": "Microsoft Surface Pro 7",
+          "color": "platinum",
+          "price": 1200,
+          "category": "tablet",
+          "brand": "Microsoft",
+          "photo": "https://www.tradeinn.com/f/13838/138384069/microsoft-portatil-tactil-surface-pro-7-lte-12.3i5-1135g7-8gb-256gb.jpg"
+        },
+        {
+          "id": 10,
+          "name": "Fitbit Charge 4",
+          "color": "blue",
+          "price": 150,
+          "category": "wearable",
+          "brand": "Fitbit",
+          "photo": "https://cdn.idealo.com/folder/Product/200225/8/200225850/s11_produktbild_gross_2/fitbit-charge-4.jpg"
+        }
+      ]
+      
+}

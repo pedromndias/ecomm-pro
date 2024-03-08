@@ -7,6 +7,7 @@ import { productList } from "../redux/productAction"
 
 // We can't call addToCart, etc directly from the buttons, so we need the useDispatch hook:
 import { useDispatch } from "react-redux"
+// And to access state we use the useSelector:
 import { useSelector } from "react-redux"
 
 
