@@ -12,8 +12,10 @@ export const cartData = (data = [], action) => {
             return [action.data, ...data] // If we call ADD_TO_CART action, then we return its data together with the previous one.
         case REMOVE_FROM_CART:
             console.log("REMOVE_FROM_CART condition", action);
-            data.length = data.length ? data.length-1 : [] // data.lenght-1 removes the last element
-            return [...data]
+            // data.length = data.length ? data.length-1 : [] // data.lenght-1 removes the last element
+            // Let's filter out the products removed:
+            let remainingProducts = data.filter(el=> el.id !== action.data)
+            return [...remainingProducts]
         case EMPTY_CART:
             console.log("EMPTY_CART condition", action);
             data = [] // Empty the array.

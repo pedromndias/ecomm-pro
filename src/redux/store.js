@@ -14,7 +14,7 @@ const sagaMiddleware = createSagaMiddleware()
 // To create store we can use createStore but it needs both the reducer and the saga:
 const store = configureStore({
     reducer: rootReducer,
-    middleware: sagaMiddleware
+    middleware: () => [sagaMiddleware] // Should be a callback function that returns an array.
 })
 
 // Now we run the productSaga inside the middleware:
